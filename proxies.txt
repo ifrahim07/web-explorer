@@ -1,0 +1,9 @@
+# Website Explorer - Proxy List
+# One proxy per line in format: protocol://host:port or protocol://user:pass@host:port
+# Lines starting with # are comments and will be ignored
+# Empty lines are also ignored
+#
+# Examples:
+# http://123.45.67.89:8080
+# socks5://user:pass@98.76.54.32:1080
+# http://proxy3.example.com:3128

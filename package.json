@@ -1,0 +1,24 @@
+{
+  "name": "web-explorer",
+  "version": "2.2.0",
+  "description": "A modular website explorer that mimics human browsing behavior using Playwright",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "explore": "ts-node src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "Ifrahim IQBAL",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
