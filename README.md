@@ -1,5 +1,12 @@
 # 🌐 Web Explorer
 
+[![CI](https://github.com/ifrahim07/web-explorer/actions/workflows/ci.yml/badge.svg)](https://github.com/ifrahim07/web-explorer/actions/workflows/ci.yml)
+[![Version](https://img.shields.io/github/package-json/v/ifrahim07/web-explorer)](https://github.com/ifrahim07/web-explorer)
+[![License](https://img.shields.io/github/license/ifrahim07/web-explorer)](https://github.com/ifrahim07/web-explorer/blob/master/LICENSE)
+[![Dependabot](https://img.shields.io/badge/dependabot-enabled-brightgreen?logo=dependabot)](https://github.com/ifrahim07/web-explorer)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Playwright](https://img.shields.io/badge/Playwright-1.58-2EAD33?logo=playwright)](https://playwright.dev/)
+
 A modular website explorer that mimics human browsing behavior using [Playwright](https://playwright.dev/). Features multi-instance parallel execution, randomized identities, proxy rotation, automatic cookie consent handling, and 10+ human-like action types.
 
 ## 📋 Prerequisites
