@@ -1,5 +1,7 @@
 # 🌐 Web Explorer
 
+[**Español 🇪🇸**](README.es.md) | **English 🇺🇸**
+
 [![CI](https://github.com/ifrahim07/web-explorer/actions/workflows/ci.yml/badge.svg)](https://github.com/ifrahim07/web-explorer/actions/workflows/ci.yml)
 [![Version](https://img.shields.io/github/package-json/v/ifrahim07/web-explorer)](https://github.com/ifrahim07/web-explorer)
 [![License](https://img.shields.io/github/license/ifrahim07/web-explorer)](https://github.com/ifrahim07/web-explorer/blob/master/LICENSE)
@@ -58,6 +60,10 @@ npm install
 # Install Playwright browsers
 npx playwright install chromium
 ```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) to get started.
 
 ## ⚙️ Configuration
 
@@ -181,3 +187,10 @@ src/
 ## 📄 License
 
 ISC — Ifrahim IQBAL
+
+---
+
+## 👤 Author
+
+**Ifrahim IQBAL**
+- GitHub: [@ifrahim07](https://github.com/ifrahim07)
