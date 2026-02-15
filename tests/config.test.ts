@@ -21,6 +21,13 @@ describe('Config Loader', () => {
 
     beforeEach(() => {
         jest.clearAllMocks();
+        // Silence console logs during tests
+        jest.spyOn(console, 'error').mockImplementation(() => { });
+        jest.spyOn(console, 'warn').mockImplementation(() => { });
+    });
+
+    afterEach(() => {
+        jest.restoreAllMocks();
     });
 
     test('should load default config when file does not exist', () => {
