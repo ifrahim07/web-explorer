@@ -1,0 +1,20 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Updates for package.json dependencies
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    groups:
+      dependencies:
+        patterns:
+          - "*" # Group all updates into a single PR to reduce noise (optional)
+    labels:
+      - "dependencies"
+      - "javascript"
+
+# Optional: Add GitHub Actions updates if you decide to add workflows later
+#  - package-ecosystem: "github-actions"
+#    directory: "/"
+#    schedule:
+#      interval: "weekly"
